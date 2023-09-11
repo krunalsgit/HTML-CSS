@@ -1,0 +1,150 @@
+
+body{
+     font-family: 'inter';  
+     font-style: normal;
+     font-weight: 500;
+}
+
+.main-container{
+     max-width: 70%;
+     justify-content: space-between;
+     margin: 0 auto;
+}
+
+img{
+     margin-top: 37px;
+     width: 225px; 
+     height: 65px;
+}
+
+ul{
+     display: inline-flex;
+     float:right;
+}
+a{
+     color: black;
+     text-decoration: none;
+     padding: 15px;
+     font-family: 'inter';  
+}
+
+a:hover{
+     text-decoration: underline skyblue 3px;
+}
+
+li{
+     margin-top: 37px;
+     list-style-type: none;
+}
+
+.btn{
+     color: white;
+     background-color: #05427B;
+     border-radius: 5px;
+     padding: 15px 20px;
+}
+
+.container{
+     display: flex;
+     margin-top: 45px;
+     column-gap: 15px;
+}
+
+
+ .sidebar{
+     height: 1000px;
+     display: flex;
+     flex: 2;
+     align-items: center;
+     justify-content: center;
+     background: #FFCCCC;
+     font-size: 40px;   
+ }
+
+.right{
+     display: flex;
+     flex-direction: column;
+     flex: 3;
+     justify-content: center;
+     font-size: 40px;
+     row-gap: 15px;
+}
+
+ .sec1{
+     
+     display: flex;
+     flex: 3;
+     align-items: center;
+     justify-content: center;
+     height: 500px;
+     background: #BEBEBE;
+     
+ }
+
+.ri{
+     display: flex;
+     flex: 3;
+     column-gap: 15px;
+}
+
+ .sec2{
+     flex: 2;
+     height: 500px;
+     background: #BEBEBE;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+ }
+
+ .sec3{
+     flex: 1;
+     height: 500px;
+     background:#BEBEBE;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+footer{
+     margin-top: 112px;
+     height: 100px;
+     background: #735A43;
+}
+
+.footer{
+     margin: 0 auto;
+     padding-top: 32px;
+     padding-bottom: 31px;
+     font-size: 32px;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+}
+
+.social{
+     color: #0587D0;
+     text-decoration: underline;
+     text-decoration-color:
+     #0587D0 ;
+     font-size: 36px;
+     line-height: 44px;
+}
+
+@media screen and (max-width: 1060px) {
+     ul{
+          display: contents;
+     }
+     .right,.sidebar,.footer,.social{
+          font-size: 25px;
+     }
+   }
+
+   @media screen and (max-width: 550px) {
+     ul{
+          display: contents;
+     }
+     .right,.sidebar,.footer,.social{
+          font-size: 15px;
+     }
+   }
